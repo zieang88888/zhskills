@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 环境与密钥
+.env
+*.key
+*.pem
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 构建产物
+dist/
+build/
+node_modules/
+
+# 临时文件
+*.tmp

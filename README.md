@@ -75,6 +75,7 @@
 | `meeting-notes` 会议纪要 | ✅ 已上线 | 转写稿 → 可交付的结构化纪要（摘要 / 决议 / 行动项 / 风险） |
 | `xiaohongshu-copy` 小红书文案 | ✅ 已上线 | 素材 → 标题 / 封面 / 正文 / 标签 / 合规自查             |
 | `resume-review` 简历诊断 | ✅ 已上线 | 简历 → 总体评价 / 分级问题 / 逐条改写 / 行动清单 |
+| `xiaohongshu-title` 小红书标题 | ✅ 已上线 | 素材 → 12 风格 24 标题 / 方向诊断 / 标题优化（改编自 xiaohongshu-ai-workbench） |
 | `ppt-outline` PPT 大纲 | 🚧 开发中 | 材料 → 分页大纲 + 每页讲稿要点 |
 | `doc-summary` 文档摘要 | 🚧 开发中 | 长文档 → 决策者视角的一页摘要 |
 
@@ -133,6 +134,12 @@ python skills/meeting-notes/scripts/draft_meeting_notes.py 转写稿.txt --outpu
 - [ ] **v0.2**：小红书文案（已上线）、简历诊断（已上线）、PPT 大纲、文档摘要
 - [ ] **v0.3**：批量处理 CLI + 自定义模板市场
 - [ ] **v0.4**：MCP 版本，接入更多 AI 助手
+
+## 二次开发与致谢
+
+部分技能改编自社区优秀开源项目，均保留原版权与 MIT 许可，完整清单见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)：
+
+- `xiaohongshu-title` ← [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench)（MIT © 2026 王梦珂）
 
 ## 点亮计划 ⭐
 

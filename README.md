@@ -1,6 +1,7 @@
 # 中文技能库 · zhskills
 
 > **给 AI 装上中文职场肌肉。**
+>
 > 一套开箱即用的 AI 技能合集：安装之后，你的 AI 助手不再是"会聊天的聊天框"，而是**直接能干活的同事**——写纪要、写文案、审简历、出大纲，格式专业到可以直接交付。
 
 <p align="center">
@@ -43,26 +44,32 @@
 **会议信息**：议题-下月内容排期 ｜ 参会-主持人/小王/李姐 ｜ 时长-约 2 分钟
 
 ## 一句话摘要
+
 确定下月内容排期方案：公众号每周 3 篇、小红书每周 2 篇，广告投放预算 2 万元，周五前产出排期表。
 
 ## 讨论要点
+
 - **排期方案** [00:12]：小王提出公众号每周 3 篇、小红书每两天 1 篇的初版方案。
 - **预算** [00:30]：李姐提示本月广告投放剩余约 2 万元，需评估覆盖度。
 
 ## 决议
+
 - [x] 公众号更新频率定为每周 3 篇
 - [x] 小红书更新频率定为每周 2 篇
 - [x] 广告投放预算沿用 2 万元额度
 
 ## 行动项
+
 | 事项 | 负责人 | 截止 |
 | --- | --- | --- |
 | 输出下月排期表并发群 | 小王 | 周五前 |
 
 ## 待确认
+
 - 2 万元投放预算是否覆盖全部渠道，需财务复核（待确认）
 
 ## 风险提示
+
 - 排期方案与预算挂钩，预算不足时需回退调整（待确认）
 ```
 
@@ -73,9 +80,19 @@
 | 技能 | 状态 | 说明 |
 | --- | --- | --- |
 | `meeting-notes` 会议纪要 | ✅ 已上线 | 转写稿 → 可交付的结构化纪要（摘要 / 决议 / 行动项 / 风险） |
-| `xiaohongshu-copy` 小红书文案 | ✅ 已上线 | 素材 → 标题 / 封面 / 正文 / 标签 / 合规自查             |
+| `xiaohongshu-copy` 小红书文案 | ✅ 已上线 | 素材 → 标题 / 封面 / 正文 / 标签 / 合规自查 |
 | `resume-review` 简历诊断 | ✅ 已上线 | 简历 → 总体评价 / 分级问题 / 逐条改写 / 行动清单 |
 | `xiaohongshu-title` 小红书标题 | ✅ 已上线 | 素材 → 12 风格 24 标题 / 方向诊断 / 标题优化（改编自 xiaohongshu-ai-workbench） |
+| `decision-questionnaire` 决策问卷 | ✅ 已上线 | 决策点 → 可异步填写的结构化问卷（用途 / 背景 / 分组问题 / 开放题） |
+| `brainstorm-spec` 方案头脑风暴 | ✅ 已上线 | 模糊想法 → 设计规格书（路径分级 / 多方案对比 / 风险与待确认 / 自检） |
+| `execution-plan` 执行计划书 | ✅ 已上线 | 需求 → 分步执行计划（交付物结构 / 验收检查点 / 无占位符） |
+| `code-review` 代码审查 | ✅ 已上线 | 代码改动 → 双轴审查报告（规范合规 / 需求符合） |
+| `humanize-writing` 去AI味润色 | ✅ 已上线 | 中文文稿 → 去 AI 味改写稿（31 条规则，保留事实与作者声音） |
+| `wechat-article` 公众号长文 | ✅ 已上线 | 主题素材 → 主张清单 / 初稿 / 自审报告 / 定稿建议 |
+| `xiaohongshu-magazine` 杂志选题库 | ✅ 已上线 | 账号定位 → 刊魂母题 / 栏目骨架 / 选题池（改编自 xiaohongshu-ai-workbench） |
+| `xiaohongshu-profile` 主页简介 | ✅ 已上线 | 主页现状 → 3 秒判断 / 7 维体检 / 4 版简介（改编自 xiaohongshu-ai-workbench） |
+| `xiaohongshu-comment-reply` 评论回复 | ✅ 已上线 | 评论 → 5 版回复对照（友好 / 专业 / 评论区风 / 引导私信 / 不建议） |
+| `xiaohongshu-conversion-path` 成交路径 | ✅ 已上线 | 产品信息 → 6 段成交路径 + 4 类内容分工（改编自 xiaohongshu-ai-workbench） |
 | `ppt-outline` PPT 大纲 | 🚧 开发中 | 材料 → 分页大纲 + 每页讲稿要点 |
 | `doc-summary` 文档摘要 | 🚧 开发中 | 长文档 → 决策者视角的一页摘要 |
 
@@ -127,19 +144,32 @@ python skills/meeting-notes/scripts/draft_meeting_notes.py 转写稿.txt --outpu
 - **本地可控**：转写与整理流程自己掌握，脚本仅调用你配置的 API，文本不经过第三方网页。
 - **模板可定制**：每个技能带独立模板文件，按你公司的格式改一处即可全局生效。
 - **零依赖**：脚本纯 Python 标准库，一条命令跑起来，不需要装任何第三方包。
+- **研发向也能打**：代码审查（双轴方法论）、执行计划书（无占位符铁律）让技能库不只服务内容岗。
 
 ## 路线图
 
 - [x] **v0.1**：仓库骨架 + 首个技能「会议纪要」
-- [ ] **v0.2**：小红书文案（已上线）、简历诊断（已上线）、PPT 大纲、文档摘要
-- [ ] **v0.3**：批量处理 CLI + 自定义模板市场
-- [ ] **v0.4**：MCP 版本，接入更多 AI 助手
+- [x] **v0.2**：小红书文案、简历诊断（已上线）
+- [ ] **v0.2b**：PPT 大纲、文档摘要
+- [x] **v0.3**：二次开发批量上线——决策问卷、方案头脑风暴、执行计划书、代码审查、去AI味润色、公众号长文、小红书选题库 / 主页简介 / 评论回复 / 成交路径
+- [ ] **v0.4**：批量处理 CLI + 自定义模板市场
+- [ ] **v0.5**：MCP 版本，接入更多 AI 助手
 
 ## 二次开发与致谢
 
 部分技能改编自社区优秀开源项目，均保留原版权与 MIT 许可，完整清单见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)：
 
 - `xiaohongshu-title` ← [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench)（MIT © 2026 王梦珂）
+- `decision-questionnaire` ← [mattpocock/skills](https://github.com/mattpocock/skills)（MIT © 2026 Matt Pocock）
+- `brainstorm-spec` ← [obra/superpowers](https://github.com/obra/superpowers)（MIT © 2025 Jesse Vincent）
+- `execution-plan` ← [obra/superpowers](https://github.com/obra/superpowers)（MIT © 2025 Jesse Vincent）
+- `code-review` ← [mattpocock/skills](https://github.com/mattpocock/skills)（MIT © 2026 Matt Pocock）
+- `humanize-writing` ← [op7418/humanizer-zh](https://github.com/op7418/humanizer-zh)（MIT © 2026 歸藏）
+- `wechat-article` ← [oaker-io/wewrite](https://github.com/oaker-io/wewrite)（MIT © 2026 OpenClaw）
+- `xiaohongshu-magazine` ← [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench)（MIT © 2026 王梦珂）
+- `xiaohongshu-profile` ← [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench)（MIT © 2026 王梦珂）
+- `xiaohongshu-comment-reply` ← [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench)（MIT © 2026 王梦珂）
+- `xiaohongshu-conversion-path` ← [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench)（MIT © 2026 王梦珂）
 
 ## 点亮计划 ⭐
 

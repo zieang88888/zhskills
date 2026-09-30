@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-# 华夏技能库 · 一键安装脚本（macOS / Linux）
+# 中文技能库 · 一键安装脚本（macOS / Linux）
 # 用法：./install.sh
 set -euo pipefail
 
 SKILLS_SRC="$(cd "$(dirname "$0")" && pwd)/skills"
 TARGET="${CLAUDE_SKILLS_DIR:-$HOME/.claude/skills}"
 
-echo "华夏技能库 · 安装脚本"
+echo "中文技能库 · 安装脚本"
 echo "来源：$SKILLS_SRC"
 echo "目标：$TARGET"
 

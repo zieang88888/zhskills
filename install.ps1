@@ -1,11 +1,11 @@
-# 华夏技能库 · 一键安装脚本（Windows PowerShell）
+# 中文技能库 · 一键安装脚本（Windows PowerShell）
 # 用法：.\install.ps1
 $ErrorActionPreference = 'Stop'
 
 $src = Join-Path $PSScriptRoot 'skills'
 $target = if ($env:CLAUDE_SKILLS_DIR) { $env:CLAUDE_SKILLS_DIR } else { Join-Path $HOME '.claude\skills' }
 
-Write-Host '华夏技能库 · 安装脚本' -ForegroundColor Cyan
+Write-Host '中文技能库 · 安装脚本' -ForegroundColor Cyan
 Write-Host "来源: $src"
 Write-Host "目标: $target"
 

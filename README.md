@@ -1,4 +1,4 @@
-# 华夏技能库 · Huaxia Skills
+# 中文技能库 · zhskills
 
 > **给 AI 装上中文职场肌肉。**
 > 一套开箱即用的 AI 技能合集：安装之后，你的 AI 助手不再是"会聊天的聊天框"，而是**直接能干活的同事**——写纪要、写文案、审简历、出大纲，格式专业到可以直接交付。
@@ -19,7 +19,7 @@
 同样一段会议录音转写稿：
 
 - ❌ **普通用法**：AI 给你一段复述，重点要你自己找，格式全无，发不出去。
-- ✅ **华夏技能库**：AI 按职场模板输出——一句话摘要、讨论要点、**决议**、**行动项（负责人 + 截止时间）**、遗留问题、风险提示，**打开就能用，改改就能发**。
+- ✅ **中文技能库**：AI 按职场模板输出——一句话摘要、讨论要点、**决议**、**行动项（负责人 + 截止时间）**、遗留问题、风险提示，**打开就能用，改改就能发**。
 
 技能库解决的，正是"AI 会聊天但不会干活"的最后一公里：**输出工程化**。
 
@@ -85,8 +85,8 @@
 ### 1. 安装
 
 ```bash
-git clone https://github.com/zieang88888/huaxia-skills.git
-cd huaxia-skills
+git clone https://github.com/zieang88888/zhskills.git
+cd zhskills
 ./install.sh              # macOS / Linux
 # Windows：PowerShell 执行 ./install.ps1
 ```
@@ -144,7 +144,7 @@ python skills/meeting-notes/scripts/draft_meeting_notes.py 转写稿.txt --outpu
 
 ## License
 
-MIT © 2026 华夏技能库（Huaxia Skills）贡献者
+MIT © 2026 中文技能库（zhskills）贡献者
 
 ---
 

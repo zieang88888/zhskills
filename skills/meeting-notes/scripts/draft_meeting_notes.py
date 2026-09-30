@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-draft_meeting_notes.py — 会议纪要草稿生成器（华夏技能库 · meeting-notes）
+draft_meeting_notes.py — 会议纪要草稿生成器（中文技能库 · meeting-notes）
 
 把会议 / 访谈 / 播客的转写稿整理成结构化 Markdown 纪要草稿，
 输出可直接交付：一句话摘要、讨论要点、决议、行动项、待确认、风险提示。
@@ -60,7 +60,7 @@ SYSTEM_PROMPT_EN = (
 def build_parser():
     parser = argparse.ArgumentParser(
         prog="draft_meeting_notes",
-        description="把转写稿整理成结构化会议纪要草稿（华夏技能库 · meeting-notes）",
+        description="把转写稿整理成结构化会议纪要草稿（中文技能库 · meeting-notes）",
     )
     parser.add_argument("input", help="转写稿路径，或用 - 从标准输入读取")
     parser.add_argument("--output", "-o", help="输出 Markdown 文件路径（默认：输入名.meeting-notes.md）")

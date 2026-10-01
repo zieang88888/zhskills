@@ -93,8 +93,8 @@
 | `xiaohongshu-profile` 主页简介 | ✅ 已上线 | 主页现状 → 3 秒判断 / 7 维体检 / 4 版简介（改编自 xiaohongshu-ai-workbench） |
 | `xiaohongshu-comment-reply` 评论回复 | ✅ 已上线 | 评论 → 5 版回复对照（友好 / 专业 / 评论区风 / 引导私信 / 不建议） |
 | `xiaohongshu-conversion-path` 成交路径 | ✅ 已上线 | 产品信息 → 6 段成交路径 + 4 类内容分工（改编自 xiaohongshu-ai-workbench） |
-| `ppt-outline` PPT 大纲 | 🚧 开发中 | 材料 → 分页大纲 + 每页讲稿要点 |
-| `doc-summary` 文档摘要 | 🚧 开发中 | 长文档 → 决策者视角的一页摘要 |
+| `ppt-outline` PPT 大纲 | ✅ 已上线 | 材料 → 分页大纲（页序 / 讲稿要点 / 视觉建议）+ 总页数与建议时长 |
+| `doc-summary` 文档摘要 | ✅ 已上线 | 长文档 → 决策者视角的一页摘要（一句话结论 / 关键发现 / 风险 / 建议行动） |
 
 > 技能持续新增中，也欢迎社区贡献（规范见 [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md)）。
 
@@ -150,7 +150,7 @@ python skills/meeting-notes/scripts/draft_meeting_notes.py 转写稿.txt --outpu
 
 - [x] **v0.1**：仓库骨架 + 首个技能「会议纪要」
 - [x] **v0.2**：小红书文案、简历诊断（已上线）
-- [ ] **v0.2b**：PPT 大纲、文档摘要
+- [x] **v0.2b**：PPT 大纲、文档摘要（已上线）
 - [x] **v0.3**：二次开发批量上线——决策问卷、方案头脑风暴、执行计划书、代码审查、去AI味润色、公众号长文、小红书选题库 / 主页简介 / 评论回复 / 成交路径
 - [ ] **v0.4**：批量处理 CLI + 自定义模板市场
 - [ ] **v0.5**：MCP 版本，接入更多 AI 助手

@@ -1,43 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-label="普通 AI 输出与中文技能库输出对比">
-  <rect width="1200" height="780" fill="#FBF9F4"/>
-  <text x="600" y="64" text-anchor="middle" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#1F1D1A">同样一段会议记录，输出差在哪？</text>
-  <text x="600" y="100" text-anchor="middle" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="16" fill="#8A8378">普通 AI 是复述，技能库是交付 —— 差一个「输出工程化」</text>
-  <g>
-    <rect x="60" y="140" width="480" height="490" rx="16" fill="#EFE9DF"/>
-    <rect x="60" y="140" width="480" height="56" rx="16" fill="#5A5348"/>
-    <rect x="60" y="180" width="480" height="16" fill="#5A5348"/>
-    <circle cx="96" cy="168" r="10" fill="none" stroke="#F7F3EC" stroke-width="3"/>
-    <line x1="91" y1="168" x2="101" y2="168" stroke="#F7F3EC" stroke-width="3"/>
-    <text x="120" y="176" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="600" fill="#F7F3EC">普通 AI 输出</text>
-    <text x="90" y="250" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5A5348">会议讨论了内容排期。</text>
-    <text x="90" y="282" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5A5348">小王说公众号可以每周三篇，小红书两天一篇。</text>
-    <text x="90" y="314" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5A5348">李姐问预算，广告投放剩两万。</text>
-    <text x="90" y="346" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5A5348">主持人决定公众号每周三篇、小红书每周两篇。</text>
-    <text x="90" y="378" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5A5348">小王周五前发排期表。</text>
-    <line x1="90" y1="416" x2="510" y2="416" stroke="#D8CFC0" stroke-width="1.5"/>
-    <text x="90" y="452" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="600" fill="#B3402E">重点要自己找 · 格式全无 · 发不出去</text>
-  </g>
-  <circle cx="600" cy="385" r="34" fill="#1F1D1A"/>
-  <text x="600" y="393" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#F7F3EC">VS</text>
-  <g>
-    <rect x="660" y="140" width="480" height="490" rx="16" fill="#FFFFFF" stroke="#E4DAC8" stroke-width="1.5"/>
-    <rect x="660" y="140" width="480" height="56" rx="16" fill="#B3402E"/>
-    <rect x="660" y="180" width="480" height="16" fill="#B3402E"/>
-    <path d="M688 168 L694 176 L712 156" fill="none" stroke="#F7F3EC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="724" y="176" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="600" fill="#F7F3EC">中文技能库（meeting-notes）</text>
-    <text x="690" y="238" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#1F1D1A">一句话摘要</text>
-    <text x="690" y="264" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="14" fill="#5A5348">确定下月内容排期：公众号每周 3 篇、小红书每周 2 篇，投放预算 2 万元。</text>
-    <text x="690" y="312" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#1F1D1A">决议</text>
-    <path d="M694 340 L700 346 L712 330" fill="none" stroke="#2E7D5B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="722" y="345" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="14" fill="#5A5348">公众号每周 3 篇 · 小红书每周 2 篇 · 投放沿用 2 万元</text>
-    <text x="690" y="392" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#1F1D1A">行动项（负责人 + 截止时间）</text>
-    <rect x="690" y="408" width="420" height="34" rx="8" fill="#F3EEE4"/>
-    <text x="706" y="430" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="13.5" fill="#5A5348">输出下月排期表并群发 ｜ 小王 ｜ 周五前</text>
-    <text x="690" y="478" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#1F1D1A">风险提示</text>
-    <text x="690" y="504" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="14" fill="#B3402E">预算不足时需回退调整（待确认）</text>
-    <line x1="690" y1="544" x2="1110" y2="544" stroke="#E4DAC8" stroke-width="1.5"/>
-    <text x="690" y="582" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="600" fill="#2E7D5B">决议可执行 · 行动项可跟踪 · 风险可见</text>
-  </g>
-  <rect x="360" y="668" width="480" height="56" rx="28" fill="#1F1D1A"/>
-  <text x="600" y="702" text-anchor="middle" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="600" fill="#F7F3EC">打开就能用 · 改改就能发</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" width="1200" height="780">
+  <rect width="1200" height="780" fill="#FBF7F0"/>
+  <text x="600" y="72" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="42" font-weight="700" fill="#1F1B16">同样一份会议记录，输出差在哪？</text>
+  <rect x="40" y="130" width="520" height="560" rx="18" fill="#F1ECE2" stroke="#D9D0C0" stroke-width="2"/>
+  <circle cx="80" cy="172" r="18" fill="#A89F92"/>
+  <text x="108" y="184" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="28" font-weight="700" fill="#7A7166">普通 AI 输出</text>
+  <text x="108" y="212" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="17" fill="#9A9184">一段复述，重点自己找，格式全无</text>
+  <line x1="70" y1="236" x2="530" y2="236" stroke="#D9D0C0" stroke-width="2"/>
+  <text x="70" y="286" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="23" fill="#6B635A">会议讨论了内容排期。</text>
+  <text x="70" y="328" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="23" fill="#6B635A">小王说公众号可以每周三篇，</text>
+  <text x="70" y="370" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="23" fill="#6B635A">小红书两天一篇。李姐问预算，</text>
+  <text x="70" y="412" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="23" fill="#6B635A">广告投放剩两万。主持人决定</text>
+  <text x="70" y="454" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="23" fill="#6B635A">公众号每周三篇、小红书每周</text>
+  <text x="70" y="496" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="23" fill="#6B635A">两篇，投放两万。小王周五前</text>
+  <text x="70" y="538" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="23" fill="#6B635A">发排期表。这周目标是排期定稿。</text>
+  <rect x="70" y="586" width="460" height="66" rx="12" fill="#E4DCCB"/>
+  <text x="300" y="628" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" fill="#8A8178">要点、决议、负责人全靠自己找</text>
+  <circle cx="600" cy="410" r="40" fill="#B23A2E"/>
+  <text x="600" y="424" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">VS</text>
+  <rect x="640" y="130" width="520" height="560" rx="18" fill="#FFFFFF" stroke="#E3D9C4" stroke-width="2"/>
+  <rect x="640" y="130" width="520" height="10" rx="5" fill="#B23A2E"/>
+  <circle cx="680" cy="172" r="18" fill="#B23A2E"/>
+  <text x="708" y="184" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="28" font-weight="700" fill="#1F1B16">zhskills 结构化纪要</text>
+  <text x="708" y="212" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="17" fill="#8A8178">决议可执行 · 行动项可跟踪 · 风险可见</text>
+  <line x1="670" y1="236" x2="1130" y2="236" stroke="#EEE6D8" stroke-width="2"/>
+  <rect x="670" y="258" width="460" height="92" rx="12" fill="#FAF3E8"/>
+  <text x="690" y="286" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="17" font-weight="700" fill="#B23A2E">一句话摘要</text>
+  <text x="690" y="320" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" fill="#33302A">确定下月排期：公众号每周 3 篇、小红书每周 2 篇，预算 2 万，周五前出排期表。</text>
+  <text x="690" y="392" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="17" font-weight="700" fill="#B23A2E">决议</text>
+  <text x="690" y="428" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" fill="#33302A">☑ 公众号每周 3 篇　　☑ 小红书每周 2 篇　　☑ 投放预算 2 万元</text>
+  <text x="690" y="476" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="17" font-weight="700" fill="#B23A2E">行动项</text>
+  <rect x="690" y="492" width="420" height="56" rx="10" fill="#F6F2EA" stroke="#E3D9C4"/>
+  <text x="706" y="527" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" fill="#33302A">输出下月排期表并发布　·　小王　·　周五前</text>
+  <text x="690" y="590" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="17" font-weight="700" fill="#B23A2E">风险提示</text>
+  <text x="690" y="624" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" fill="#33302A">⚠ 2 万预算覆盖度待财务复核</text>
+  <text x="900" y="668" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="21" font-weight="700" fill="#B23A2E">打开就能用 · 改改就能发</text>
+  <text x="600" y="748" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="16" fill="#A89F92">示意内容 · 由 meeting-notes 技能模板生成</text>
 </svg>

@@ -1,75 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850" role="img" aria-label="zhskills 16 个技能总览">
-  <rect width="1200" height="850" fill="#FBF9F4"/>
-  <text x="600" y="60" text-anchor="middle" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#1F1D1A">16 个中文技能 · 四大板块，开箱即用</text>
-  <text x="600" y="96" text-anchor="middle" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="16" fill="#8A8378">会议、增长、决策、工程 —— 覆盖中文职场高频场景</text>
-  <g>
-    <rect x="60" y="130" width="520" height="300" rx="16" fill="#FFFFFF" stroke="#E4DAC8" stroke-width="1.5"/>
-    <circle cx="90" cy="174" r="8" fill="#B3402E"/>
-    <text x="108" y="180" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="19" font-weight="700" fill="#1F1D1A">职场文档（4）</text>
-    <rect x="26" y="216" width="230" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="42" y="240" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="600" fill="#1F1D1A">meeting-notes 会议纪要</text>
-    <text x="42" y="260" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="11.5" fill="#8A8378">转写稿 → 结构化纪要</text>
-    <rect x="264" y="216" width="230" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="280" y="240" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="600" fill="#1F1D1A">doc-summary 文档摘要</text>
-    <text x="280" y="260" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="11.5" fill="#8A8378">长文档 → 决策者一页摘要</text>
-    <rect x="26" y="282" width="230" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="42" y="306" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="600" fill="#1F1D1A">ppt-outline PPT 大纲</text>
-    <text x="42" y="326" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="11.5" fill="#8A8378">材料 → 分页大纲 + 讲稿</text>
-    <rect x="264" y="282" width="230" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="280" y="306" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="600" fill="#1F1D1A">wechat-article 公众号长文</text>
-    <text x="280" y="326" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="11.5" fill="#8A8378">素材 → 可发布长文</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+  <rect width="1200" height="860" fill="#FBF7F0"/>
+  <text x="600" y="66" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="40" font-weight="700" fill="#1F1B16">14 个技能 · 给 AI 装上中文职场肌肉</text>
+  <text x="600" y="104" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="20" fill="#8A8178">会议写作 · 小红书生态 · 简历决策 · 方案代码，一个仓库全打包</text>
+  <rect x="40" y="140" width="560" height="330" rx="20" fill="#FFFFFF" stroke="#E3D9C4" stroke-width="2"/>
+  <rect x="40" y="140" width="560" height="12" rx="6" fill="#B23A2E"/>
+  <text x="70" y="196" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" font-weight="700" fill="#1F1B16">会议与写作</text>
+  <text x="70" y="224" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="15" fill="#A89F92">3 个技能</text>
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif">
+    <rect x="70" y="250" width="240" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="190" y="286" text-anchor="middle" font-size="19" font-weight="700" fill="#1F1B16">会议纪要</text>
+    <text x="190" y="312" text-anchor="middle" font-size="13" fill="#8A8178">meeting-notes</text>
+    <rect x="330" y="250" width="240" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="450" y="286" text-anchor="middle" font-size="19" font-weight="700" fill="#1F1B16">公众号长文</text>
+    <text x="450" y="312" text-anchor="middle" font-size="13" fill="#8A8178">wechat-article</text>
+    <rect x="70" y="344" width="240" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="190" y="380" text-anchor="middle" font-size="19" font-weight="700" fill="#1F1B16">去AI味润色</text>
+    <text x="190" y="406" text-anchor="middle" font-size="13" fill="#8A8178">humanize-writing</text>
   </g>
-  <g>
-    <rect x="620" y="130" width="520" height="300" rx="16" fill="#FFFFFF" stroke="#E4DAC8" stroke-width="1.5"/>
-    <circle cx="650" cy="174" r="8" fill="#B3402E"/>
-    <text x="668" y="180" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="19" font-weight="700" fill="#1F1D1A">小红书增长（6）</text>
-    <rect x="586" y="216" width="163" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="602" y="238" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" fill="#1F1D1A">xiaohongshu-copy</text>
-    <text x="602" y="258" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="11.5" fill="#8A8378">文案创作</text>
-    <rect x="756" y="216" width="163" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="772" y="238" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" fill="#1F1D1A">xiaohongshu-title</text>
-    <text x="772" y="258" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="11.5" fill="#8A8378">标题 12 风格</text>
-    <rect x="926" y="216" width="163" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="942" y="238" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" fill="#1F1D1A">magazine</text>
-    <text x="942" y="258" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="11.5" fill="#8A8378">杂志选题库</text>
-    <rect x="586" y="282" width="163" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="602" y="304" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" fill="#1F1D1A">profile</text>
-    <text x="602" y="324" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="11.5" fill="#8A8378">主页简介</text>
-    <rect x="756" y="282" width="163" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="772" y="304" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" fill="#1F1D1A">comment-reply</text>
-    <text x="772" y="324" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="11.5" fill="#8A8378">评论回复</text>
-    <rect x="926" y="282" width="163" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="942" y="304" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" fill="#1F1D1A">conversion-path</text>
-    <text x="942" y="324" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="11.5" fill="#8A8378">成交路径</text>
+  <rect x="640" y="140" width="520" height="330" rx="20" fill="#FFFFFF" stroke="#E3D9C4" stroke-width="2"/>
+  <rect x="640" y="140" width="520" height="12" rx="6" fill="#B23A2E"/>
+  <text x="670" y="196" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" font-weight="700" fill="#1F1B16">小红书生态</text>
+  <text x="670" y="224" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="15" fill="#A89F92">6 个技能 · 文案到成交全链路</text>
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif">
+    <rect x="670" y="250" width="150" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="745" y="282" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">笔记文案</text>
+    <text x="745" y="308" text-anchor="middle" font-size="12" fill="#8A8178">xiaohongshu-copy</text>
+    <rect x="840" y="250" width="150" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="915" y="282" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">爆款标题</text>
+    <text x="915" y="308" text-anchor="middle" font-size="12" fill="#8A8178">xiaohongshu-title</text>
+    <rect x="1010" y="250" width="150" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="1085" y="282" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">杂志选题</text>
+    <text x="1085" y="308" text-anchor="middle" font-size="12" fill="#8A8178">xiaohongshu-magazine</text>
+    <rect x="670" y="344" width="150" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="745" y="376" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">主页简介</text>
+    <text x="745" y="402" text-anchor="middle" font-size="12" fill="#8A8178">xiaohongshu-profile</text>
+    <rect x="840" y="344" width="150" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="915" y="376" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">评论回复</text>
+    <text x="915" y="402" text-anchor="middle" font-size="12" fill="#8A8178">comment-reply</text>
+    <rect x="1010" y="344" width="150" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="1085" y="376" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">成交路径</text>
+    <text x="1085" y="402" text-anchor="middle" font-size="12" fill="#8A8178">conversion-path</text>
   </g>
-  <g>
-    <rect x="60" y="470" width="520" height="300" rx="16" fill="#FFFFFF" stroke="#E4DAC8" stroke-width="1.5"/>
-    <circle cx="90" cy="514" r="8" fill="#B3402E"/>
-    <text x="108" y="520" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="19" font-weight="700" fill="#1F1D1A">决策与求职（2）</text>
-    <rect x="26" y="560" width="470" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="42" y="584" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="600" fill="#1F1D1A">decision-questionnaire 决策问卷</text>
-    <text x="42" y="604" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="11.5" fill="#8A8378">拷问决策，不拷问被访者</text>
-    <rect x="26" y="626" width="470" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="42" y="650" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="600" fill="#1F1D1A">resume-review 简历诊断</text>
-    <text x="42" y="670" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei", sans-serif" font-size="11.5" fill="#8A8378">评价 → 分级问题 → 逐条改写</text>
-    <text x="42" y="724" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei", sans-serif" font-size="12.5" fill="#8A8378">面向求职与拍板场景，输出可直接行动</text>
+  <rect x="40" y="500" width="560" height="310" rx="20" fill="#FFFFFF" stroke="#E3D9C4" stroke-width="2"/>
+  <rect x="40" y="500" width="560" height="12" rx="6" fill="#B23A2E"/>
+  <text x="70" y="556" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" font-weight="700" fill="#1F1B16">简历与决策</text>
+  <text x="70" y="584" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="15" fill="#A89F92">2 个技能</text>
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif">
+    <rect x="70" y="610" width="240" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="190" y="646" text-anchor="middle" font-size="19" font-weight="700" fill="#1F1B16">简历诊断</text>
+    <text x="190" y="672" text-anchor="middle" font-size="13" fill="#8A8178">resume-review</text>
+    <rect x="330" y="610" width="240" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="450" y="646" text-anchor="middle" font-size="19" font-weight="700" fill="#1F1B16">决策问卷</text>
+    <text x="450" y="672" text-anchor="middle" font-size="13" fill="#8A8178">decision-questionnaire</text>
   </g>
-  <g>
-    <rect x="620" y="470" width="520" height="300" rx="16" fill="#FFFFFF" stroke="#E4DAC8" stroke-width="1.5"/>
-    <circle cx="650" cy="514" r="8" fill="#B3402E"/>
-    <text x="668" y="520" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="19" font-weight="700" fill="#1F1D1A">工程与写作（4）</text>
-    <rect x="586" y="560" width="230" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="602" y="584" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="600" fill="#1F1D1A">brainstorm-spec</text>
-    <text x="602" y="604" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="11.5" fill="#8A8378">方案头脑风暴</text>
-    <rect x="824" y="560" width="230" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="840" y="584" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="600" fill="#1F1D1A">execution-plan</text>
-    <text x="840" y="604" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="11.5" fill="#8A8378">执行计划书</text>
-    <rect x="586" y="626" width="230" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="602" y="650" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="600" fill="#1F1D1A">code-review</text>
-    <text x="602" y="670" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="11.5" fill="#8A8378">代码审查双轴</text>
-    <rect x="824" y="626" width="230" height="56" rx="10" fill="#F3EEE4"/>
-    <text x="840" y="650" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="600" fill="#1F1D1A">humanize-writing</text>
-    <text x="840" y="670" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="11.5" fill="#8A8378">去AI味润色</text>
+  <rect x="640" y="500" width="520" height="310" rx="20" fill="#FFFFFF" stroke="#E3D9C4" stroke-width="2"/>
+  <rect x="640" y="500" width="520" height="12" rx="6" fill="#B23A2E"/>
+  <text x="670" y="556" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" font-weight="700" fill="#1F1B16">方案与代码</text>
+  <text x="670" y="584" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="15" fill="#A89F92">3 个技能</text>
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif">
+    <rect x="670" y="610" width="150" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="745" y="642" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">方案头脑风暴</text>
+    <text x="745" y="668" text-anchor="middle" font-size="12" fill="#8A8178">brainstorm-spec</text>
+    <rect x="840" y="610" width="150" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="915" y="642" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">执行计划书</text>
+    <text x="915" y="668" text-anchor="middle" font-size="12" fill="#8A8178">execution-plan</text>
+    <rect x="1010" y="610" width="150" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="1085" y="642" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">代码审查</text>
+    <text x="1085" y="668" text-anchor="middle" font-size="12" fill="#8A8178">code-review</text>
   </g>
-  <text x="600" y="812" text-anchor="middle" font-family="system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="15" fill="#8A8378">纯 Python 标准库 · 兼容任意 OpenAI 接口 · MIT 许可 · 持续新增中</text>
+  <text x="600" y="846" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" font-weight="700" fill="#B23A2E">MIT 开源 · 零依赖 Python CLI · 持续更新中</text>
 </svg>

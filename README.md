@@ -75,6 +75,18 @@
 | `xiaohongshu-conversion-path` 成交路径 | ✅ 已上线 | 产品信息 → 6 段成交路径 + 4 类内容分工（改编自 xiaohongshu-ai-workbench） |
 | `ppt-outline` PPT 大纲 | ✅ 已上线 | 材料 → 分页大纲（页序 / 讲稿要点 / 视觉建议）+ 总页数与建议时长 |
 | `doc-summary` 文档摘要 | ✅ 已上线 | 长文档 → 决策者视角的一页摘要（一句话结论 / 关键发现 / 风险 / 建议行动） |
+| `interview-me` 需求澄清 | ✅ 已上线 | 模糊需求 → 澄清报告（假设+置信度 / 访谈问题清单 / 6 行需求复述）（改编自 addyosmani/agent-skills） |
+| `idea-refine` 想法打磨 | ✅ 已上线 | 粗糙想法 → 一页方案（HMW 重述 / 方向四维对比 / Not Doing 清单）（改编自 addyosmani/agent-skills） |
+| `systematic-debugging` 根因复盘 | ✅ 已上线 | 问题 → 根因分析报告（四阶段串行 / 单假设验证 / 3 次失败质疑前提）（改编自 obra/superpowers） |
+| `verification-before-completion` 交付核验 | ✅ 已上线 | 交付物 → 声明-证据核验报告（无新鲜证据不声称完成）（改编自 obra/superpowers） |
+| `contract-guard` 合同审查 | ✅ 已上线 | 合同 → 四分类审查 + 公平评分 + 中国法强制规定对照（改编自 he-yufeng/ContractGuard） |
+| `extract-wisdom` 深度提炼 | ✅ 已上线 | 长文 → 多维智慧摘要（核心观点 / 洞察 / 金句 / 行动建议）（改编自 danielmiessler/fabric） |
+| `teach` 培训教案 | ✅ 已上线 | 培训主题 → 教案大纲（MISSION 目标 / 提取-间隔-交错练习）（改编自 mattpocock/skills） |
+| `proposal-writer` 立项报告 | ✅ 已上线 | 主题+事实 → 立项报告（证据表 / 论证链 / 章节契约 / 四层 QA）（改编自 Yuan1z0825/nature-skills） |
+| `academic-polishing` 专业润色 | ✅ 已上线 | 专业文稿 → 结构化润色稿 + 证据边界检查（事实 / 推断 / 建议）（改编自 Yuan1z0825/nature-skills） |
+| `xiaohongshu-topic-planner` 选题日历 | ✅ 已上线 | 目标 → 6 类功能选题池 + 优先级 + 发布日历（改编自 xiaohongshu-ai-workbench） |
+| `analyze-claims` 信息核查 | ✅ 已上线 | 声明 → 可信度核查报告（拆解 / 证据强度 / 结论 / 需核实清单）（改编自 danielmiessler/fabric） |
+| `data-storytelling` 数据叙事 | ✅ 已上线 | 数据 → 叙事化汇报报告（故事框架 / 结论式标题 / 洞察建议）（改编自 wshobson/agents） |
 > 技能持续新增中，也欢迎社区贡献（规范见 [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md)）。
 ## 快速开始（约 10 分钟）
 ### 1. 安装
@@ -114,6 +126,7 @@ python skills/meeting-notes/scripts/draft_meeting_notes.py 转写稿.txt --outpu
 - [x] **v0.2**：小红书文案、简历诊断（已上线）
 - [x] **v0.2b**：PPT 大纲、文档摘要（已上线）
 - [x] **v0.3**：二次开发批量上线——决策问卷、方案头脑风暴、执行计划书、代码审查、去AI味润色、公众号长文、小红书选题库 / 主页简介 / 评论回复 / 成交路径
+- [x] **v0.3b**：二次开发扩容（外国项目本地化 + 中文生态 + 多类别）——需求澄清 / 想法打磨 / 根因复盘 / 交付核验 / 合同审查 / 深度提炼 / 培训教案 / 立项报告 / 专业润色 / 选题日历 / 信息核查 / 数据叙事（已上线）
 - [ ] **v0.4**：批量处理 CLI + 自定义模板市场
 - [ ] **v0.5**：MCP 版本，接入更多 AI 助手
 ## 二次开发与致谢
@@ -129,6 +142,18 @@ python skills/meeting-notes/scripts/draft_meeting_notes.py 转写稿.txt --outpu
 - `xiaohongshu-profile` ← [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench)（MIT © 2026 王梦珂）
 - `xiaohongshu-comment-reply` ← [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench)（MIT © 2026 王梦珂）
 - `xiaohongshu-conversion-path` ← [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench)（MIT © 2026 王梦珂）
+- `interview-me` ← [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)（MIT © 2025 Addy Osmani）
+- `idea-refine` ← [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)（MIT © 2025 Addy Osmani）
+- `systematic-debugging` ← [obra/superpowers](https://github.com/obra/superpowers)（MIT © 2025 Jesse Vincent）
+- `verification-before-completion` ← [obra/superpowers](https://github.com/obra/superpowers)（MIT © 2025 Jesse Vincent）
+- `contract-guard` ← [he-yufeng/ContractGuard](https://github.com/he-yufeng/ContractGuard)（MIT）
+- `extract-wisdom` ← [danielmiessler/fabric](https://github.com/danielmiessler/fabric)（MIT）
+- `teach` ← [mattpocock/skills](https://github.com/mattpocock/skills)（MIT © 2026 Matt Pocock）
+- `proposal-writer` ← [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills)（Apache-2.0）
+- `academic-polishing` ← [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills)（Apache-2.0）
+- `xiaohongshu-topic-planner` ← [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench)（MIT © 2026 王梦珂）
+- `analyze-claims` ← [danielmiessler/fabric](https://github.com/danielmiessler/fabric)（MIT）
+- `data-storytelling` ← [wshobson/agents](https://github.com/wshobson/agents)（MIT © 2024 Seth Hobson）
 ## 点亮计划 ⭐
 如果这个技能库帮到了你，**点一个 Star** 就是对我们最大的支持——每一个 Star 都会让我们继续把下一个技能做得更好。
 ## 贡献

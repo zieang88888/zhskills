@@ -27,5 +27,6 @@
 | skills/xiaohongshu-topic-planner | [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench) | MIT | © 2026 王梦珂 | 6 类功能选题方法论本地化；重写 SKILL.md；新增零依赖 CLI 与输出模板 |
 | skills/analyze-claims | [danielmiessler/fabric](https://github.com/danielmiessler/fabric) | MIT | © 2012-2024 Scott Chacon and others | analyze_claims pattern 本地化为中文可信度核查；重写 SKILL.md；新增零依赖 CLI 与输出模板 |
 | skills/data-storytelling | [wshobson/agents](https://github.com/wshobson/agents) | MIT | © 2024 Seth Hobson | 数据叙事方法论（3 框架 / 标题公式 / 不确定性表达）本地化；重写 SKILL.md；新增零依赖 CLI 与输出模板 |
+| skills/prompt-designer | [danielmiessler/fabric](https://github.com/danielmiessler/fabric) | MIT | © 2012-2024 Scott Chacon and others | fabric patterns 的提示词编写结构本地化为中文提示词设计方法论；重写 SKILL.md；新增零依赖 CLI 与输出模板 |
 
 各组件目录内 NOTICE.md 附原项目 LICENSE 全文。

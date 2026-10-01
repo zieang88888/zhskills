@@ -87,7 +87,67 @@
 | `xiaohongshu-topic-planner` 选题日历 | ✅ 已上线 | 目标 → 6 类功能选题池 + 优先级 + 发布日历（改编自 xiaohongshu-ai-workbench） |
 | `analyze-claims` 信息核查 | ✅ 已上线 | 声明 → 可信度核查报告（拆解 / 证据强度 / 结论 / 需核实清单）（改编自 danielmiessler/fabric） |
 | `data-storytelling` 数据叙事 | ✅ 已上线 | 数据 → 叙事化汇报报告（故事框架 / 结论式标题 / 洞察建议）（改编自 wshobson/agents） |
+| `prompt-designer` 提示词设计 | ✅ 已上线 | 需求/旧提示词 → 可直接复制的结构化提示词规格（五要素 + 迭代打磨）（改编自 danielmiessler/fabric） |
 > 技能持续新增中，也欢迎社区贡献（规范见 [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md)）。
+## 该用哪个技能（场景速查）
+按「你想做什么」找技能，不用翻完整列表：
+
+**✍️ 写作与内容生产**
+| 想做什么 | 用这个技能 |
+| --- | --- |
+| 长文档 → 一页决策者摘要 | `doc-summary` |
+| 深度吸收长文 / 播客的智慧 | `extract-wisdom` |
+| 去 AI 味，改得更像人写的 | `humanize-writing` |
+| 公众号长文（主张 → 初稿 → 自审） | `wechat-article` |
+| 材料 → PPT 分页大纲 | `ppt-outline` |
+| 立项报告 / 申报材料 | `proposal-writer` |
+| 专业文稿结构化润色（先内容后语言） | `academic-polishing` |
+| 新人培训 / 带教教案 | `teach` |
+| 自己写 / 优化给 AI 的提示词 | `prompt-designer` |
+
+**📱 小红书与内容运营**
+| 想做什么 | 用这个技能 |
+| --- | --- |
+| 起标题 / 标题诊断 | `xiaohongshu-title` |
+| 写文案（封面 / 正文 / 标签） | `xiaohongshu-copy` |
+| 搭选题库（刊魂 / 栏目骨架） | `xiaohongshu-magazine` |
+| 排发布日历 | `xiaohongshu-topic-planner` |
+| 主页体检与简介改写 | `xiaohongshu-profile` |
+| 回评论 / 差评回复 | `xiaohongshu-comment-reply` |
+| 设计成交转化路径 | `xiaohongshu-conversion-path` |
+
+**🗣️ 会议与沟通**
+| 想做什么 | 用这个技能 |
+| --- | --- |
+| 会议 / 访谈 / 播客 → 结构化纪要 | `meeting-notes` |
+| 模糊需求 → 澄清问题清单 | `interview-me` |
+| 模糊想法 → 设计规格书 | `brainstorm-spec` |
+| 需求 → 分步执行计划 | `execution-plan` |
+| 交付前声明-证据核验 | `verification-before-completion` |
+
+**🧩 想法与决策**
+| 想做什么 | 用这个技能 |
+| --- | --- |
+| 打磨想法 / 选题 → 一页方案 | `idea-refine` |
+| 自己拍不了板 → 结构化问卷 | `decision-questionnaire` |
+
+**💻 研发与质量**
+| 想做什么 | 用这个技能 |
+| --- | |
+| 代码改动双轴审查 | `code-review` |
+| 故障 / 客诉根因复盘 | `systematic-debugging` |
+
+**📊 数据、信息与法务**
+| 想做什么 | 用这个技能 |
+| --- | --- |
+| 数据 → 叙事化汇报 | `data-storytelling` |
+| 声明 / 信息可信度核查 | `analyze-claims` |
+| 合同审查（四分类 + 公平评分） | `contract-guard` |
+
+**👤 个人成长**
+| 想做什么 | 用这个技能 |
+| --- | --- |
+| 简历诊断与逐条改写 | `resume-review` |
 ## 快速开始（约 10 分钟）
 ### 1. 安装
 ```bash
@@ -127,6 +187,7 @@ python skills/meeting-notes/scripts/draft_meeting_notes.py 转写稿.txt --outpu
 - [x] **v0.2b**：PPT 大纲、文档摘要（已上线）
 - [x] **v0.3**：二次开发批量上线——决策问卷、方案头脑风暴、执行计划书、代码审查、去AI味润色、公众号长文、小红书选题库 / 主页简介 / 评论回复 / 成交路径
 - [x] **v0.3b**：二次开发扩容（外国项目本地化 + 中文生态 + 多类别）——需求澄清 / 想法打磨 / 根因复盘 / 交付核验 / 合同审查 / 深度提炼 / 培训教案 / 立项报告 / 专业润色 / 选题日历 / 信息核查 / 数据叙事（已上线）
+- [x] **v1.0**：稳定完成态——29 技能全量上线、场景速查导航、贡献规范补强（二次开发合规三件套）、提示词设计技能上线，仓库正式化收尾（已上线）
 - [ ] **v0.4**：批量处理 CLI + 自定义模板市场
 - [ ] **v0.5**：MCP 版本，接入更多 AI 助手
 ## 二次开发与致谢
@@ -154,6 +215,7 @@ python skills/meeting-notes/scripts/draft_meeting_notes.py 转写稿.txt --outpu
 - `xiaohongshu-topic-planner` ← [xiaohongshu-ai-workbench](https://github.com/mengke-wang/xiaohongshu-ai-workbench)（MIT © 2026 王梦珂）
 - `analyze-claims` ← [danielmiessler/fabric](https://github.com/danielmiessler/fabric)（MIT）
 - `data-storytelling` ← [wshobson/agents](https://github.com/wshobson/agents)（MIT © 2024 Seth Hobson）
+- `prompt-designer` ← [danielmiessler/fabric](https://github.com/danielmiessler/fabric)（MIT）
 ## 点亮计划 ⭐
 如果这个技能库帮到了你，**点一个 Star** 就是对我们最大的支持——每一个 Star 都会让我们继续把下一个技能做得更好。
 ## 贡献

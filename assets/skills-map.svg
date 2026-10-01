@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
   <rect width="1200" height="860" fill="#FBF7F0"/>
-  <text x="600" y="66" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="40" font-weight="700" fill="#1F1B16">14 个技能 · 给 AI 装上中文职场肌肉</text>
-  <text x="600" y="104" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="20" fill="#8A8178">会议写作 · 小红书生态 · 简历决策 · 方案代码，一个仓库全打包</text>
+  <text x="600" y="66" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="40" font-weight="700" fill="#1F1B16">16 个技能 · 给 AI 装上中文职场肌肉</text>
+  <text x="600" y="104" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="20" fill="#8A8178">会议文档 · 小红书生态 · 简历决策 · 方案代码，一个仓库全打包</text>
   <rect x="40" y="140" width="560" height="330" rx="20" fill="#FFFFFF" stroke="#E3D9C4" stroke-width="2"/>
   <rect x="40" y="140" width="560" height="12" rx="6" fill="#B23A2E"/>
-  <text x="70" y="196" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" font-weight="700" fill="#1F1B16">会议与写作</text>
-  <text x="70" y="224" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="15" fill="#A89F92">3 个技能</text>
+  <text x="70" y="196" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" font-weight="700" fill="#1F1B16">会议与文档</text>
+  <text x="70" y="224" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="15" fill="#A89F92">4 个技能</text>
   <g font-family="'Microsoft YaHei','PingFang SC',sans-serif">
     <rect x="70" y="250" width="240" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
     <text x="190" y="286" text-anchor="middle" font-size="19" font-weight="700" fill="#1F1B16">会议纪要</text>
@@ -16,6 +16,9 @@
     <rect x="70" y="344" width="240" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
     <text x="190" y="380" text-anchor="middle" font-size="19" font-weight="700" fill="#1F1B16">去AI味润色</text>
     <text x="190" y="406" text-anchor="middle" font-size="13" fill="#8A8178">humanize-writing</text>
+    <rect x="330" y="344" width="240" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="450" y="380" text-anchor="middle" font-size="19" font-weight="700" fill="#1F1B16">文档摘要</text>
+    <text x="450" y="406" text-anchor="middle" font-size="13" fill="#8A8178">doc-summary</text>
   </g>
   <rect x="640" y="140" width="520" height="330" rx="20" fill="#FFFFFF" stroke="#E3D9C4" stroke-width="2"/>
   <rect x="640" y="140" width="520" height="12" rx="6" fill="#B23A2E"/>
@@ -56,7 +59,7 @@
   <rect x="640" y="500" width="520" height="310" rx="20" fill="#FFFFFF" stroke="#E3D9C4" stroke-width="2"/>
   <rect x="640" y="500" width="520" height="12" rx="6" fill="#B23A2E"/>
   <text x="670" y="556" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" font-weight="700" fill="#1F1B16">方案与代码</text>
-  <text x="670" y="584" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="15" fill="#A89F92">3 个技能</text>
+  <text x="670" y="584" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="15" fill="#A89F92">4 个技能</text>
   <g font-family="'Microsoft YaHei','PingFang SC',sans-serif">
     <rect x="670" y="610" width="150" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
     <text x="745" y="642" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">方案头脑风暴</text>
@@ -67,6 +70,9 @@
     <rect x="1010" y="610" width="150" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
     <text x="1085" y="642" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">代码审查</text>
     <text x="1085" y="668" text-anchor="middle" font-size="12" fill="#8A8178">code-review</text>
+    <rect x="670" y="704" width="150" height="74" rx="12" fill="#FAF3E8" stroke="#EFE3CF"/>
+    <text x="745" y="736" text-anchor="middle" font-size="17" font-weight="700" fill="#1F1B16">PPT 大纲</text>
+    <text x="745" y="762" text-anchor="middle" font-size="12" fill="#8A8178">ppt-outline</text>
   </g>
   <text x="600" y="846" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" font-weight="700" fill="#B23A2E">MIT 开源 · 零依赖 Python CLI · 持续更新中</text>
 </svg>
